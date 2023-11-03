@@ -1,0 +1,29 @@
+.topBtn {
+    align-items: center;
+    font-size: 1.4rem;
+    width: 3.3rem;
+    height: 3.3rem;
+    color: #F38521;
+    position: fixed;
+    /* background-color: black;
+    box-shadow: 3px solid black; */
+    border-radius: 50%;
+    bottom: 2rem;
+    border: 2px solid #b6d848;
+    right: 2rem;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .topBtnIcon {
+    animation: gototop 1.2s linear infinite alternate-reverse;
+  }
+  @keyframes gototop {
+    0% {
+      transform: translateY(-0.5rem);
+    }
+    100% {
+      transform: translateY(0.5rem);
+    }
+  }
